@@ -46,18 +46,6 @@
     }
 
         /* breadcrumbs */
-    .breadcrumbs {
-        margin-top: 40px;
-    }
-
-    .breadcrumbs ul {
-        display: flex;
-    }
-
-    .breadcrumbs-link {
-        margin-left: 22px;
-        list-style-image: url("../../image/icon-after.png");
-    }
 
     .breadcrumbs-link:first-child {
         margin-left: 0;
