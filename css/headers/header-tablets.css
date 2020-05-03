@@ -1,5 +1,57 @@
 /* mobile edition */
 
-@media (min-width: 768px){
+@media (min-width: 768px) and (max-width: 1200px) {
 
+    .container {
+        width: 690px;
+        margin: 0 auto;
+    } 
+
+    /* hidden elements in this edition */
+    .form-search, .time-loud, .line,.phone-call-back > div, .nav-header {
+        display: none;
+    }
+
+    /* header */
+    header {
+        height: 98px;
+    }
+        /* up nav */
+    .info-block {
+        display: flex; 
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 160px;
+        margin: auto;
+        margin-top: 21px;
+    }
+
+    .whatsapp-head {
+        margin-top: 24px;
+    }
+
+    .whatsapp-head > img {
+        width: 22px;
+    }
+
+    .phone-call-back {
+        margin-top: 28px;
+        margin-left: 19px;
+    }
+
+    .phone-call-back > img {
+        width: 19px;
+    }
+
+        /* breadcrumbs */
+
+    .breadcrumbs-link:first-child {
+        margin-left: 0;
+    }
+        /* breadcrumbs end */
+
+    /* header end*/
 }

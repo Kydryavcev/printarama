@@ -1,0 +1,153 @@
+/* Main footer template */
+
+/* alert subscription */
+.suscribirse-block {
+    width: 100%;
+    margin-top: 50px;
+    background-color: #53B263;
+}
+
+.footer-part-one {
+    display: flex;
+}
+
+.newsletter {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #ffffff;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.news-pull {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;        
+    color: #FFFFFF;
+}
+
+.news-pull > div {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 12px;
+}
+
+.news {
+    padding-top: 17px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;        
+    background: #FFFFFF;
+    border: 1px solid #53B263;
+    box-sizing: border-box;
+    border-radius: 4px; 
+}
+
+.news::placeholder{
+    opacity: 0.6;
+}
+
+.input-news > button { 
+    border: none;        
+    border-radius: 4px;
+    padding: 15px 40px; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;        
+    text-transform: uppercase;    
+    background: #FFFFFF;
+    color: #53B263;
+}
+
+.checkbox-news {
+    margin-right: 13px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+/* alert subscription end */
+
+/* footer */
+
+.footer-info{
+    width: 100%;
+    background: #E8E8E8;
+}
+
+.footer-part-two {
+    display: flex;
+    padding-top: 26px;
+    padding-bottom: 25px;
+}
+
+.news-call-back {
+    margin-top: 10px;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.column > ul {
+    margin-top: 24px; 
+}
+    /* lower menu */
+.one-column-main, .two-column-main {
+    display: flex;
+}
+
+.one-column-main > .column > ul > li > a, .two-column-main > .column > ul > li > a { 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #444444; 
+}
+
+.one-column-main > .column > ul > li:first-child > a, .two-column-main > .column > ul > li:first-child > a {
+    font-weight: bold;
+}
+
+.two-column-main > .column:last-child {        
+    margin-right: 0;
+}
+
+.maps-pin {
+    margin-right: 10px;
+}
+
+.two-column-main > .column > ul > li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;        
+    color: #444444;    
+}
+
+.two-column-main > .column > ul > li:first-child {
+    font-weight: bold;
+}
+    /* lower menu end */
+.line-footer {
+    margin: 53px 0 27px;
+    color: #C4C4C4; 
+}
+
+.footer-part-three {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+/* footer end*/

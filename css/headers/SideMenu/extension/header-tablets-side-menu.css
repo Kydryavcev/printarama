@@ -1,0 +1,48 @@
+@media (min-width: 580px) and (max-width: 1200px) {
+
+    .form-search-side {
+        width: 0;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 74px;
+        border: none;
+        border-radius: 6px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .search-input-side {
+        margin: 1px 0 1px 1px;
+        border: none;
+        border-radius: 6px;
+        padding-left: 18px;
+        font-size: 16px;
+        line-height: 19px;
+        width: 94%;
+        display: none;
+    }
+
+    .search-img {  
+        margin: 1px 1px 1px 0; 
+        padding-right: 16px; 
+        border: none;
+        border-radius: 6px;
+        background-color: #ffffff;
+        flex: 1;
+    }
+
+    .nav-header-side-menu {
+        width: 100%;
+        margin-top: 33px;
+    }
+
+    .social-network-side-menu {
+        display: flex;
+        align-items: center;
+        margin-top: 28px;
+    }
+
+    .social-network-side-menu > a {
+        margin-left: 20px;
+    }
+}

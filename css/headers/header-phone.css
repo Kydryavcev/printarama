@@ -1,0 +1,68 @@
+/* mobile edition */
+
+@media (max-width: 768px) {
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* hidden elements in this edition */
+    .form-search, .time-loud, .line, .phone-call-back > div, .nav-header {
+        display: none;
+    }
+
+    /* header */
+    header {
+        height: 98px;
+    }
+        /* up nav */
+    .info-block {
+        display: flex; 
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 160px;
+        margin: auto;
+        margin-top: 21px;
+    }
+
+    .whatsapp-head {
+        margin-top: 22px;
+    }
+
+    .whatsapp-head > img {
+        width: 22px;
+    }
+
+    .phone-call-back {
+        margin-top: 26px;
+    }
+
+    .phone-call-back > img {
+        width: 19px;
+    }
+
+        /* breadcrumbs */
+    .breadcrumbs {
+        margin-top: 40px;
+    }
+
+    .breadcrumbs ul {
+        display: flex;
+    }
+
+    .breadcrumbs-link {
+        margin-left: 22px;
+        list-style-image: url("../../image/icon-after.png");
+    }
+
+    .breadcrumbs-link:first-child {
+        margin-left: 0;
+    }
+        /* breadcrumbs end */
+
+    /* header end*/
+}

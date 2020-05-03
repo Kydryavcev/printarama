@@ -1,0 +1,52 @@
+@media (max-width: 580px) {
+
+    .column {
+        flex-flow: column;
+    }
+
+    .form-search-side {
+        width: 85%;
+        height: 40px;
+        margin-top: 15px;
+        margin-left: 20px;
+        border: 1px solid #C4C4C4;
+        border-radius: 6px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .search-input-side {
+        margin: 1px 0 1px 1px;
+        border: none;
+        border-radius: 6px;
+        padding-left: 18px;
+        font-size: 16px;
+        line-height: 19px;
+        width: 94%;
+    }
+
+    .search-img {     
+        margin: 1px 1px 1px 0;
+        padding-right: 25px; 
+        border: none;
+        border-radius: 6px;
+        background-color: #ffffff;
+        width: 6%;
+    }
+
+    .nav-header-side-menu {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .social-network-side-menu {
+        display: flex;
+        flex-flow: wrap;
+        align-items: center;
+        margin-top: 28px;
+    }
+
+    .social-network-side-menu > a {
+        margin-left: 20px;
+    }
+}
