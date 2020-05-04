@@ -17,6 +17,25 @@
     margin-top: 26px;
     cursor: pointer;
 }
+
+.time-loud {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 118px;
+    height: 42px;
+}
+
+.time-loud img {
+    width: 27px;
+}
+
+.lun-vie {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
     /* up nav end */
 
     /* breadcrumbs */

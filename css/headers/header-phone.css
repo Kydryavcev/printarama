@@ -13,9 +13,7 @@
     }
 
     /* header */
-    header {
-        height: 98px;
-    }
+    
         /* up nav */
     .info-block {
         display: flex; 

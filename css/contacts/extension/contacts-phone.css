@@ -1,0 +1,51 @@
+@media (max-width: 768px) {
+    
+    .main-headline {   
+        display: block;   
+        box-sizing: border-box;  
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 39px;
+        text-transform: uppercase;
+        color: #26516D;
+    }
+    
+    .contact-info-block {
+        flex-flow: column;
+    }
+    
+    .contact-info {
+        order: 2;
+        width: 100%;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+    } 
+    
+    .contact-form {
+        order: 1;
+        box-sizing: border-box;
+        width: 100%;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        margin-bottom: 40px;
+    }
+
+    .mail, .phone {
+        width: 100%;
+    }
+
+    .mail > input {    
+        box-sizing: border-box;
+        width: 100%;
+    }
+    
+    .contact-info, .contact-form {
+        padding: 35px 36px;
+    }
+    
+    .place-map {
+        margin-top: 54px;
+        width: 100%;
+    }
+}

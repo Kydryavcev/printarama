@@ -71,9 +71,24 @@
 }
 
 .time-loud-menu-main {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 118px;
+    height: 42px;
     margin-top: 26px;
     margin-left: 20px;
+}
+
+.time-loud img {
+    width: 27px;
+}
+
+.lun-vie {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
 }
 
 .phone-call-back-menu-main {    

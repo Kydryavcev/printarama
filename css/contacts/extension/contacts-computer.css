@@ -1,0 +1,35 @@
+@media (min-width: 1200px){
+
+    .main-headline {   
+        display: block;     
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 39px;
+        text-transform: uppercase;
+        color: #26516D;
+    }
+
+    .contact-info-block {
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+    }
+
+    .contact-info {
+        width: 42%;
+        border-right: 1px solid #CACACA;
+        border-radius: 4px;
+    } 
+
+    .contact-form {
+        width: 68%;
+    }
+
+    .contact-info, .contact-form {
+        padding: 35px 36px;
+    }
+
+    .place-map {
+        margin-top: 54px;
+    }
+}

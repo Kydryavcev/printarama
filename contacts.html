@@ -12,7 +12,10 @@
     <link rel="stylesheet" href="css/headers/SideMenu/header-side-menu.css">
     <link rel="stylesheet" href="css/headers/SideMenu/extension/header-phone-side-menu.css">
     <link rel="stylesheet" href="css/headers/SideMenu/extension/header-tablets-side-menu.css">
-    <link rel="stylesheet" href="css/contacts.css">
+    <link rel="stylesheet" href="css/contacts/contacts-main.css">
+    <link rel="stylesheet" href="css/contacts/extension/contacts-computer.css">
+    <link rel="stylesheet" href="css/contacts/extension/contacts-phone.css">
+    <link rel="stylesheet" href="css/contacts/extension/contacts-tablets.css">
     <link rel="stylesheet" href="css/footers/footer-main.css">
     <link rel="stylesheet" href="css/footers/extension/footer-computer.css">
     <link rel="stylesheet" href="css/footers/extension/footer-phone.css">
@@ -24,9 +27,9 @@
             <div class="side-menu">
                 <div class="row-side-menu column">
                     <img src="image/logo.png" alt="logo" class="logo">
-                    <form action="#" method="post" class="form-search-side">
-                        <input type="text" name="search" class="search-input-side" id="search" placeholder="Ingrese el nombre">
-                        <button class="search-img"><img src="image/search.png" alt="search"></button>
+                    <form action="#" method="post" class="form-search-side" id="FormSearch">
+                        <input type="text" name="search" class="search-input-side" id="SearchSideMenu" placeholder="Ingrese el nombre">
+                        <button class="search-img"><img src="image/search.png" alt="search" id="SearchButton"></button>
                     </form>
                 </div>
                 <!-- side menu -->
@@ -42,8 +45,13 @@
                 </div>
                  <!-- side menu end -->
                 <div class="row-side-menu between">
-                    <!-- заглушка, надо будет достать картику часов -->
-                    <div class="time-loud-menu-main"><img src="image/Group 66.png" alt="work time"></div>
+                    <div class="time-loud-menu-main">
+                        <img src="image/time.png" alt="work time">
+                        <div class="lun-vie">
+                            <p>Lun-Vie</p>
+                            <p>9:00-17:00</p>
+                        </div>                
+                    </div>
                     <a href="tel:93 220 38 44" class="phone-call-back-menu-main"><img src="image/call-phone.png" alt="call back"><div>93 220 38 44</div></a>
                     <a href="#" class="whatsapp-head-side-menu"><img src="image/whatsapp.png" alt="whatsapp"></a>
                 </div>
@@ -67,8 +75,13 @@
                 <button class="search-img"><img src="image/search.png" alt="search"></button>
             </form>
             <a href="#" class="whatsapp-head"><img src="image/whatsapp.png" alt="whatsapp"></a>
-            <!-- заглушка, надо будет достать картику часов -->
-            <div class="time-loud"><img src="image/Group 66.png" alt="work time"></div>
+            <div class="time-loud">
+                <img src="image/time.png" alt="work time">
+                <div class="lun-vie">
+                    <p>Lun-Vie</p>
+                    <p>9:00-17:00</p>
+                </div>                
+            </div>
             <a href="tel:93 220 38 44" class="phone-call-back"><img src="image/call-phone.png" alt="call back"><div>93 220 38 44</div></a>
         </div>
         <hr class="line" noshade>
@@ -93,6 +106,54 @@
         </div>
         <!-- breadcrumbs -->
     </header>
+    <main>
+        <h1 class="main-headline contact">Contactos</h1>
+        <div class="container contact-info-block">
+            <div class="contact-info">
+                <img src="image/logo.png" alt="logo" class="contact-logo">
+                <h2>DIRECCIÓN</h2>
+                <ul class="contact-address">
+                    <li>C. Rierra Pahissa 8, Nave 4</li>
+                    <li>Sant Feliu de Llobregat</li>
+                    <li>08980 Barcelon</li>
+                </ul>
+                <h2>WHATSAPP (solo texto) CLICK AQUÍ</h2>
+                <p>para enviar mensaje por Whatsapp</p>
+                <h2>TELÉFONO (lunes a viernes de 9 a 18 hs)</h2>
+                <p>(+34) 932 203 844</p>
+                <h2>Información general</h2>
+                <p>info@printarama.es</p>
+                <h2>Administración</h2>
+                <p>administracion@printarama.es</p>
+                <h2>Pedidos</h2>
+                <p>pedidos@printarama.es</p>
+            </div>
+            <div class="contact-form">
+                <h2>ENVÍANOS TU CONSULTA</h2>
+                <form action="" method="post" class="contact-form-reg">
+                    <div class="number">
+                        <p>Nombre</p>
+                        <input type="text" name="number" id="number" placeholder="Ingresa tu nombre">
+                    </div>
+                    <div class="mail">
+                        <p>Correo electrónico</p>
+                        <input type="text" name="mail" id="mail" placeholder="Ingresar correo electrónico">
+                    </div>
+                    <div class="phone">
+                        <p>Teléfono</p>
+                        <input type="text" name="phone" id="phone" placeholder="Ingrese el número de teléfono">
+                    </div>
+                    <div class="comment">
+                        <p>Comentario</p>
+                        <textarea name="comment" id="comment" placeholder="Ingrese el texto de su comentario"></textarea>
+                    </div>
+                    <input type="button" value="Enviar" class="green-button">
+                </form>
+            </div>
+        </div>
+        <h1 class="main-headline place">Ubicación</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14243.224084831738!2d2.044803670031846!3d41.36823959858467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49be805431d77%3A0x71376d1e9f1282ed!2zMDg5NzAg0KHQsNC9LdCW0L7QsNC9LdCU0LXRgdC_0LgsINCR0LDRgNGB0LXQu9C-0L3QsCwg0JjRgdC_0LDQvdC40Y8!5e0!3m2!1sru!2sru!4v1588601620046!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="container place-map"></iframe>
+    </main>
     <footer>
         <!-- alert subscription -->
         <div class="suscribirse-block">
@@ -106,7 +167,7 @@
                         <input type="text" name="news" class="news" id="news" placeholder="DÉjanos tu correo electrónico">
                         <button>suscribirse</button>
                         <div class="news-call-back">
-                            <input type="checkbox" name="NewsButton" id="NewsButton" value="a1">Doy mi consentimiento a Printarama Spain S.L. para recibir comunicaciones electrónicas de sus artículos y/o productos.</label>                                           
+                            <input type="checkbox" name="NewsButton" id="NewsButton" value="a1" class="checkbox-news"><label for="NewsButton" class="checkbox-news-label">Doy mi consentimiento a Printarama Spain S.L. para recibir comunicaciones electrónicas de sus artículos y/o productos.</label>                                           
                         </div>
                     </div>
                 </form>
@@ -186,7 +247,8 @@
             </div>
             <hr class="line-footer" noshade>
             <div class="container footer-part-three">
-                © 2020. All rights reserved – Printarama -<br> Aviso Legal - Política de Privacidad - Política de Cookies
+               <span> © 2020. All rights reserved – Printarama -</span><br>
+               <span class="boldtext">Aviso Legal - Política de Privacidad - Política de Cookies</span> 
             </div>
         </div>
         <script src="js/header.js"></script>

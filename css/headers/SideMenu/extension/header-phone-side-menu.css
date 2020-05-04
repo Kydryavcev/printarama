@@ -6,7 +6,7 @@
 
     .form-search-side {
         width: 85%;
-        height: 40px;
+        height: 40px; 
         margin-top: 15px;
         margin-left: 20px;
         border: 1px solid #C4C4C4;
@@ -39,14 +39,18 @@
         margin-top: 15px;
     }
 
+    .time-loud-menu-main, .phone-call-back-menu-main, .social-network-side-menu > a {
+        margin-left: 15px;
+    }
+
+    .phone-call-back-menu-main {
+        order: 5;
+    }
+
     .social-network-side-menu {
         display: flex;
         flex-flow: wrap;
         align-items: center;
         margin-top: 28px;
-    }
-
-    .social-network-side-menu > a {
-        margin-left: 20px;
     }
 }

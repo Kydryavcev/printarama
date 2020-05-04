@@ -5,3 +5,8 @@ MenuIcon.onclick = function() {
 ExitMenu.onclick = function () {
     SideMenuMain.style.display = "none";
 }
+
+FormSearch.onsubmit = function () {
+    alert("------");
+    return false;
+}
