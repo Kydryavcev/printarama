@@ -141,7 +141,7 @@ main{
     resize: none;
 }
 
-.contact-form-reg > div > textarea::placeholder {
+.contact-form-reg > div > textarea::placeholder, .contact-form-reg > div > input::placeholder {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;

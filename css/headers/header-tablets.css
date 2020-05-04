@@ -1,6 +1,6 @@
 /* mobile edition */
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1220px) {
 
     .container {
         width: 690px;
@@ -23,8 +23,8 @@
 
     .logo {
         width: 160px;
-        margin: auto;
         margin-top: 21px;
+        margin-left: 35px;
     }
 
     .whatsapp-head {

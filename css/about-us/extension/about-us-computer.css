@@ -1,0 +1,9 @@
+@media (min-width: 1220px){
+    .about-us-tag {
+        justify-content: flex-start;
+    }    
+
+    .about-us-tag > button:first-child {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,49 @@
+main{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.main-headline {   
+    display: block;     
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #26516D;
+}
+
+.about-us {
+    margin-top: 40px;
+}
+
+.about-us > p {
+    margin-bottom: 20px;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #193D4E;
+}
+
+.about-us-tag {
+    margin-top: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.about-us-tag > button {
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;    
+    color: #26516D;
+    border: 1px solid #26516D;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 13px 40px 14px 40px;
+    margin: 20px 10px;
+}

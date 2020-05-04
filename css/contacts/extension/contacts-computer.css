@@ -1,11 +1,11 @@
-@media (min-width: 1200px){
+@media (min-width: 1220px){
 
     .main-headline {   
         display: block;     
         font-style: normal;
         font-weight: bold;
         font-size: 32px;
-        line-height: 39px;
+        line-height: 39px; 
         text-transform: uppercase;
         color: #26516D;
     }

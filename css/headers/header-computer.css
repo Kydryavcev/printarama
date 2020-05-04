@@ -1,7 +1,7 @@
 /* computer edition */
 
 
-@media (min-width: 1200px){
+@media (min-width: 1220px){
 
     .container {
         width: 1200px;
@@ -62,7 +62,7 @@
 
     .whatsapp-head {
         margin-top: 38px;
-        margin-left: 27px;
+        margin-left: 48px;
     }
 
     .time-loud {

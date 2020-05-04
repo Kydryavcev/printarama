@@ -23,8 +23,8 @@
 
     .logo {
         width: 160px;
-        margin: auto;
         margin-top: 21px;
+        margin-left: 25px;
     }
 
     .whatsapp-head {
@@ -37,6 +37,7 @@
 
     .phone-call-back {
         margin-top: 26px;
+        margin-left: 10px;
     }
 
     .phone-call-back > img {

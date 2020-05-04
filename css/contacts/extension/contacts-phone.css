@@ -1,11 +1,11 @@
 @media (max-width: 768px) {
     
-    .main-headline {   
+    .main-headline {    
         display: block;   
         box-sizing: border-box;  
         font-style: normal;
         font-weight: bold;
-        font-size: 32px;
+        font-size: 20px;
         line-height: 39px;
         text-transform: uppercase;
         color: #26516D;
@@ -21,6 +21,10 @@
         box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
         border-radius: 4px;
     } 
+
+    .contact-logo {
+        width: 185px;
+    }
     
     .contact-form {
         order: 1;
@@ -29,6 +33,34 @@
         box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
         border-radius: 4px;
         margin-bottom: 40px;
+    }
+    
+    .contact-form > h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .contact-form-reg > div > textarea, .contact-form-reg > div > input {
+        padding: 13px 16px;
+    }
+
+    .contact-form-reg > div > textarea::placeholder, .contact-form-reg > div > input::placeholder {
+        font-size: 16px;
+        line-height: 19px; 
+    }
+
+    .contact-form-reg > div > textarea::placeholder {
+        font-size: 16px;
+        line-height: 19px; 
+    }
+
+    .contact-form-reg > div > p, .contact-info > h2 {
+        font-size: 16px;
+    }
+
+    .contact-info > h2 {
+        font-size: 14px;
+        line-height: 16px;
     }
 
     .mail, .phone {
@@ -41,7 +73,7 @@
     }
     
     .contact-info, .contact-form {
-        padding: 35px 36px;
+        padding: 20px 14px;
     }
     
     .place-map {
