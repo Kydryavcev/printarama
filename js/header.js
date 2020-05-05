@@ -1,12 +1,12 @@
-MenuIcon.onclick = function() {
-    SideMenuMain.style.display = "flex";
+document.getElementById('MenuIcon').onclick = function() {
+    document.getElementById('SideMenuMain').style.display = "flex";
 };
 
-ExitMenu.onclick = function () {
-    SideMenuMain.style.display = "none";
+document.getElementById('ExitMenu').onclick = function () {
+    document.getElementById('SideMenuMain').style.display = "none";
 }
 
-FormSearch.onsubmit = function () {
+document.getElementById('FormSearch').onsubmit = function () {
     alert("------");
     return false;
 }
