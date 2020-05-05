@@ -1,4 +1,7 @@
-@media (min-width: 768px) and (max-width: 1220px) {
+@media (min-width: 769px) and (max-width: 1219px) {
+    footer {
+        margin-top: 70px;
+    }
 
     .footer-part-one {
         flex-flow: column;

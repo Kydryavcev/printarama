@@ -1,0 +1,28 @@
+@media (min-width: 769px) and (max-width: 1219px) {
+    .technology {
+        width: 330px;
+        margin-top: 40px
+    }
+
+    .technology:nth-child(2n) {
+        margin-left: 30px;
+    }
+    
+    .material > a > h2 {
+        margin-top: 18px;
+        margin-bottom: 6px;
+        font-size: 18px;
+        line-height: 22px;
+    } 
+
+    .technology > a > h2 {
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    .material > p {
+        font-size: 14px;
+        line-height: 21px;      
+    }
+}

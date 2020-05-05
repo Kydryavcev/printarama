@@ -1,15 +1,4 @@
-@media (min-width: 768px) and (max-width: 1220px) {
-    
-    .main-headline {   
-        display: block;     
-        font-style: normal;
-        font-weight: bold;
-        font-size: 32px;
-        line-height: 39px;
-        text-transform: uppercase; 
-        color: #26516D;
-    }
-    
+@media (min-width: 769px) and (max-width: 1219px) {
     .contact-info-block {
         flex-flow: column;
     }

@@ -1,0 +1,28 @@
+@media (min-width: 1220px){
+    .material {
+        width: 176px;
+    }
+
+    .material {
+        margin: 50px 14px 0;
+    }
+
+    .material:nth-child(7n), .material:nth-child(1){
+        margin-left: 0;
+    }
+    .material:nth-child(6n){
+        margin-right: 0;
+    }
+
+    .material > a > h2 {
+        margin-top: 16px;
+        margin-bottom: 6px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    .material > p {
+        font-size: 14px;
+        line-height: 21px;      
+    }
+}

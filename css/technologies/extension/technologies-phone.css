@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+    .technology {
+        width: 100%;
+        margin-top: 60px
+    }
+
+    .technology:nth-child(1) {
+        margin-top: 32px;
+    }
+
+    .technology > a > img {
+        width: 100%;
+    }
+    
+    .technology > a > h2 {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}

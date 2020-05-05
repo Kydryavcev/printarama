@@ -1,0 +1,81 @@
+.help-info-block {
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.help-tag {
+    margin-top: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.help-tag > button {
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;    
+    color: #26516D;
+    border: 1px solid #26516D;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 8px 24px 9px 24px;
+    margin: 7px;
+}
+
+.help-tag > .active {
+    background: #53B263;
+    color: #FFFFFF;
+}
+
+.help-line-sown-tags {
+    width: 100%;
+    margin: 25px 7px;
+    border-color: #53B263;
+}
+
+.help-full-info {
+    margin: 0 7px;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.help-full-info > h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #26516D;
+}
+
+.main-list-help, .main-list-help > li > ul {
+    list-style: none;
+}
+
+.main-list-help > li {
+    border-bottom: 1px solid #F1F1F1;
+}
+
+.main-list-help > li > h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #53B263;
+    padding: 13px 0 14px;
+}
+
+.main-list-help > li > ul {
+    border-top: 1px solid #F1F1F1;
+}
+
+.main-list-help > li > ul > li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #193D4E;
+    padding: 13px 20px;
+}

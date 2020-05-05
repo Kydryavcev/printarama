@@ -1,4 +1,7 @@
 @media (max-width: 768px) {
+    footer {
+        margin-top: 70px;
+    }
 
     .footer-part-one {
         flex-flow: column;

@@ -1,0 +1,44 @@
+main{
+    text-align: center;
+}
+
+.main-headline {   
+    display: block;     
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #26516D;
+}
+
+@media (min-width: 1220px){
+    main {
+        margin-top: 40px;
+    }
+
+    .main-headline {   
+        font-size: 32px;
+        line-height: 39px;
+    }
+}
+
+@media (min-width: 580px) and (max-width: 1220px) {
+    main {
+        margin-top: 40px;
+    }
+
+    .main-headline {   
+        font-size: 26px;
+        line-height: 31px;
+    }
+}
+
+@media (max-width: 580px) {
+    main {
+        margin-top: 32px;
+    }
+
+    .main-headline {   
+        font-size: 20px;
+        line-height: 24px;
+    }
+}

@@ -1,0 +1,17 @@
+@media (min-width: 769px) and (max-width: 1219px) {
+    .materiales-view {
+        margin-top: 22px;
+    }
+
+    .material {
+        width: 210px;
+    }
+
+    .material {
+        margin: 30px  0;
+    }
+
+    .material:nth-child(3n + 2), .material:nth-child(2){
+        margin: 30px 28px;
+    }
+}

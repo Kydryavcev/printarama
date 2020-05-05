@@ -1,0 +1,33 @@
+.materiales-view {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.material {
+    display: flex;
+    flex-flow: column;
+}
+
+.material > a {
+    display: flex;
+    flex-flow: column;
+}
+
+.material > a > h2 {
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;    
+    color: #26516D;
+}
+
+.material > a > img {
+    width: 100%;
+}
+
+.material > p {
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    color: #193D4E;        
+}

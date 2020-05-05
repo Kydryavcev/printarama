@@ -1,9 +1,13 @@
 @media (min-width: 1220px){
+    footer {
+        margin-top: 120px;
+    }
+
     .footer-part-one {
         align-items: center;
     }
 
-    .newsletter {
+    .newsletter { 
         margin-left: 90px;
     }
 

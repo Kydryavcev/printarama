@@ -5,7 +5,7 @@
         url('../fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Gilroy-ExtraBold.woff') format('woff'),
         url('../fonts/Gilroy-ExtraBold.ttf') format('truetype');
-    font-weig../fonts/ht: 800;
+    font-weight: 800;
     font-style: normal;
 }
 
@@ -126,7 +126,7 @@
         url('../fonts/Gilroy-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Gilroy-ExtraBoldItalic.woff') format('woff'),
         url('../fonts/Gilroy-ExtraBoldItalic.ttf') format('truetype');
-    font-weig../fonts/ht: 800;
+        font-weight: 800;
     font-style: italic;
 }
 

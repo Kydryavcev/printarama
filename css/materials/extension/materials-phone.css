@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    .materiales-view {
+        margin-top: 16px;
+        justify-content: space-between;
+    }
+
+    .material {
+        width: 48%;
+    }
+
+    .material {
+        margin-top: 24px;
+    }
+
+    .material > a > h2 {
+        margin-top: 11px;
+        margin-bottom: 9px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+    .material > p {
+        font-size: 14px;
+        line-height: 21px;      
+    }
+}
