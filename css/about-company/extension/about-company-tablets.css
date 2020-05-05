@@ -1,0 +1,22 @@
+@media (min-width: 769px) and (max-width: 1219px) {
+    .about-us {
+        margin-bottom: 70px;
+    }
+
+    .equipment-block {
+        margin-top: 54x;
+    }
+
+    .equipment {
+        width: 312px;
+    }
+
+    .team-person {
+        width: 330px;
+        margin-top: 30px;
+    }
+
+    .tablets-none {
+        display: none;
+    }
+}

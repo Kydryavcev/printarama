@@ -65,12 +65,16 @@
     line-height: 150%;
     color: #53B263;
     padding: 13px 0 14px;
+} 
+
+.main-list-help > li > h3 > img {
+    margin-right: 10px;
 }
 
 .main-list-help > li > ul {
     border-top: 1px solid #F1F1F1;
 }
-
+ 
 .main-list-help > li > ul > li {
     font-style: normal;
     font-weight: normal;

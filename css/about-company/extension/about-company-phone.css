@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    .about-us {
+        margin-bottom: 60px;
+    }
+
+    .equipment-block {
+        margin-top: 48px;
+    }
+
+    .team-info-block {
+        margin-top: 10px;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .team-person {
+        width: 80%;
+        margin-top: 20px;
+    }
+    
+    .phone-none, .tablets-none {
+        display: none;
+    }
+}

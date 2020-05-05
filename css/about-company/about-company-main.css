@@ -1,0 +1,85 @@
+.main-headline {   
+    display: block;     
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #26516D;
+}
+
+.about-us {
+    margin-top: 40px;
+}
+
+.about-us > p {
+    margin-bottom: 20px;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #193D4E;
+}
+
+.equipment-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.equipment > img {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.equipment > h2 {
+    margin: 13px 0 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;    
+    color: #000000;    
+}
+
+.equipment > p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;    
+    color: #193D4E;    
+}
+
+.team-info-block {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.team-person {
+    display: flex;
+    flex-flow: column;
+}
+
+.team-person > img {
+    width: 100%;
+}
+
+.person-info {
+    padding-top: 14px;
+    padding-bottom: 20px;
+    background: #53B263;
+    border-radius: 0px 0px 5px 5px;
+    color: #fff;
+}
+
+.person-info > h2 {    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
