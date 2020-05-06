@@ -1,4 +1,4 @@
-# Шаблоны шапки сайта(Site header templates) > Требует дороботки
+# Шаблоны шапки сайта(Site header templates) > Требует дорАботки
 Все шаблоны шапки сайта находятся в разделе [headers](css/headers)
 В нём содержится главный [headers](css/headers/header-main.css) и расширения для него:
 * [компьюторов](css/headers/header-computer.css) 
@@ -9,7 +9,7 @@
 * [расшширение для планшетов](css/headers/SideMenu/header-tables-side-menu.css)
 * [расшширение для телефонов](css/headers/SideMenu/header-phone-side-menu.css)
 ***
-# Шаблоны подвала сайта(Site footer templates) > Требует дороботки
+# Шаблоны подвала сайта(Site footer templates) > Требует дорАботки
 Все шаблоны подвала сайта находятся в разделе [footer](css/footers)
 В нём содержится главный [footer](css/footers/footer-main.css) и расширения для него:
 * [компьюторов](css/footers/extension/footer-computer.css) 

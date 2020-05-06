@@ -1,0 +1,38 @@
+@media (min-width: 1220px) {
+    .products-block , .service-links-block, .blog-block {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-bottom: 120px;
+    }
+ 
+    .product, .blog {
+        width: 384px;
+        margin-top: 32px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    }
+
+    .faq {
+        margin-top: 54px;
+        width: 592px;
+    }
+
+    .technology {
+        width: 384px;
+        margin: 52px 0  0 ;
+    }
+    
+    .technology:nth-child(3n + 2), .technology:nth-child(2)  {
+        margin: 52px 16px 0;
+    }
+    
+    .technology > div > h2 {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .service-links-block {
+        margin-top: 88px;
+    }
+}
