@@ -1,0 +1,22 @@
+.posts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;    
+    align-items: flex-start;
+}
+
+.post {
+    text-align: left;
+}
+
+.post > img {
+    width: 100%; 
+}
+
+.pagination {
+    margin: auto;
+}
+
+.pagination-active > a {
+    color: #53B263 !important;
+}
