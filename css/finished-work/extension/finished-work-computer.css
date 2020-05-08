@@ -1,0 +1,46 @@
+@media (min-width: 1220px){
+    .main-blog-info {
+        margin-top: 53px;
+        display: flex;
+    }
+
+    .main-blog-info > aside {
+        width: 280px;
+    }
+
+    .work {
+        width: 904px;
+    }
+
+    .work-headline {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .about-us-tag > a {
+        background: #FFFFFF;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;    
+        color: #26516D;
+        border: 1px solid #26516D;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 13px 40px 14px 40px;
+        margin: 8px 10px;
+    } 
+
+    .products-block , .service-links-block {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-bottom: 120px;
+    }
+
+    .product {
+        width: 384px;
+        margin-top: 32px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    }
+}
