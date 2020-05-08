@@ -4,11 +4,29 @@
     }
 
     .equipment-block {
-        margin-top: 54x;
+        margin-top: 54px;
     }
 
+    #EquipmentBlock > .equipment:nth-child(1), #EquipmentBlock > .equipment:nth-child(2) {
+        display: block !important;
+    }
+    
     .equipment {
+        display: none;
         width: 312px;
+    }
+
+    .next, .back {
+        padding: 5px;
+    }
+
+    .next > img, .back > img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .chevron {
+        bottom: 245px;
     }
 
     .team-person {

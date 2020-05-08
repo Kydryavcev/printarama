@@ -6,14 +6,32 @@
     .equipment-block {
         margin-top: 60px;
     }
+
+    #EquipmentBlock > .equipment:nth-child(1), #EquipmentBlock > .equipment:nth-child(2), #EquipmentBlock > .equipment:nth-child(3) {
+        display: block !important;
+    }
     
     .equipment {
+        display: none;
         width: 356px;
     }
     
     .equipment-block > .equipment > p {
         font-size: 16px;
         line-height: 24px;   
+    }
+
+    .next, .back {
+        padding: 8px;
+    }
+
+    .next > img, .back > img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .chevron {
+        bottom: 280px;
     }
 
     .team-person {

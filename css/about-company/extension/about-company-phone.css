@@ -7,10 +7,32 @@
         margin-top: 48px;
     }
 
+    #EquipmentBlock > .equipment:nth-child(1) {
+        display: block !important;
+    }
+    
+    .equipment {
+        display: none;
+        width: 100%;
+    }
+
     .team-info-block {
         margin-top: 10px;
         flex-flow: column;
         align-items: center;
+    }
+
+    .next, .back {
+        padding: 5px;
+    }
+
+    .next > img, .back > img {
+        width: 14px;
+        height: 14px;
+    }
+
+    .chevron {
+        bottom: 245px;
     }
 
     .team-person {
