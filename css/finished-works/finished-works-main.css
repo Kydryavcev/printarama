@@ -1,0 +1,39 @@
+.posts {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;    
+    align-items: flex-start;
+}
+
+.post {
+    text-align: left;
+}
+
+.post > img {
+    width: 100%;
+}
+
+.info-work {
+    display: flex;
+    flex-flow: column;
+}
+
+.info-work > h2 {
+    font-style: normal;
+    font-weight: 600;
+    color: #26516D;
+}
+
+.info-work > p {
+    font-style: normal;
+    font-weight: normal;
+    color: #193D4E;
+}
+
+.pagination {
+    margin: auto;
+}
+
+.pagination-active > a {
+    color: #53B263 !important;
+}
