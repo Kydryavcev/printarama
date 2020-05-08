@@ -2,6 +2,7 @@
     .main-blog-info {
         margin-top: 53px;
         display: flex;
+        justify-content: space-between;
     }
 
     .main-blog-info > aside {
@@ -18,7 +19,8 @@
         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
         border-radius: 6px;
         padding: 32px;
-        margin-bottom: 32px;
+        margin-bottom: 32px;        
+        box-sizing: border-box;
     }
 
     .post > img {
@@ -88,5 +90,113 @@
         font-size: 24px;
         line-height: 29px;
         color: #3F4472
+    }
+
+    .search-post {
+        width: 100%;
+        display: flex;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 6px;
+    }
+
+    .search-post > button {
+        width: 20%;
+        background-color: #FFFFFF;
+        border: none;
+    }
+
+    .search-post > button > img {
+        width: 15px;
+        padding: 15px;
+        margin: 1px;
+        margin-right: 0;
+    }
+
+    .search-post > input {
+        width: 80%;
+        background-color: #FFFFFF;
+        border: none;
+    }
+
+    .search-post > input::placeholder {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;        
+        color: #9A9A9A;        
+        opacity: 0.6;
+    }
+
+    aside h2 {
+        text-align: left;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        color: #222222;
+        margin: 25px 0 14px;
+    }
+
+    .popular-post-creater {
+        margin-top: 7px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 6px;
+        list-style: none;
+        text-align: left;
+        padding: 2px 18px;
+    }
+    
+    .popular-post-creater > li {
+        margin: 12px 0;
+    }
+
+    .popular-post-creater > li > a {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .popular-post-creater > li > a > img {
+        margin-top: 7px;
+        width: 24px;
+    }
+
+    .popular-post-creater > li > a > div {
+        margin-left: 10px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 27px;
+        color: #5C78BF;
+    }
+
+    .platforms {
+        margin-top: 7px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 6px;
+        list-style: none;
+        text-align: left;
+        padding: 2px 18px;
+    }
+
+    .platforms > li {
+        margin: 12px 0;
+    }
+
+    .platforms > li > a {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .platforms > li > a > img {
+        width: 24px;
+    }
+
+    .platforms > li > a > div {
+        margin-left: 10px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 27px;
+        color: #5C78BF;
     }
 }
