@@ -81,8 +81,53 @@
     }
 
     .product {
-        width: 330px;
+        width: 100%;
         margin-top: 32px;
         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+        display: none;
+    }
+
+    .products-block, .service-links-block {
+        margin-bottom: 96px;
+    }
+
+    .price-text {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .products-block > .product {
+        display: block !important;
+    }
+
+    .service-links-block > .product:nth-child(1) {
+        display: block  !important;
+    }
+    
+    .chevron-product {
+        display: flex;
+        justify-content: center;
+    }
+
+    .chevron-product > ul {
+        margin-top: 20px;
+        list-style: none;
+        display: flex;
+    }
+
+    .chevron-product > ul > li {        
+        font-size: 0;
+        cursor: pointer;
+        margin: 6px;
+        width: 8px;
+        height: 8px;
+        border-radius: 6px;
+        background: #C4C4C4;
+        opacity: 0.7;
+    }
+
+    .chevron-product > ul > .active {
+        background: #53B263 !important;
+        opacity: 1 !important;
     }
 }
