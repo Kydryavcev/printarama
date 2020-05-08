@@ -44,4 +44,20 @@
         margin-top: 32px;
         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
     }
+
+    .faq-block {
+        width: 100% !important; 
+    }
+
+    .faq {
+        width: 100%;
+    }
+
+    .reviews-networks > li {
+        margin: 0 30px;
+    }
+    
+    .reviews-networks {
+        margin: 30px 0 34px;
+    }
 }
