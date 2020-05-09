@@ -49,6 +49,7 @@
 
 .breadcrumbs ul {
     display: flex;
+    flex-flow: row  wrap;
 }
 
 .breadcrumbs-link {
@@ -58,6 +59,7 @@
 
 .breadcrumbs-link > a{
     font-family: "Gilroy";
+    display: block;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;

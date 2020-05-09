@@ -1,112 +1,72 @@
 @media (min-width: 1220px){
     .main-blog-info {
-        justify-content: space-between;
         margin-top: 53px;
         display: flex;
+        justify-content: space-between;
     }
 
     .main-blog-info > aside {
         width: 280px;
     }
 
-    .posts { 
+    .work {
         width: 904px;
     }
 
-    .post {
-        width: 280px;
-        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
-        border-radius: 6px;
-        padding-bottom: 26px;
-        margin-bottom: 32px;
+    .work-headline {
+        font-size: 32px;
+        line-height: 48px;
     }
-    
-    .post > h2 {
+
+    .about-us-tag {
+        margin-bottom: 42px;
+    }    
+
+    .about-us-tag > a {
+        background: #FFFFFF;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 18px;
-        line-height: 27px;
-        color: #53B263;
-        margin: 16px 0 11px;
+        line-height: 21px;    
+        color: #26516D;
+        box-sizing: border-box;
+        margin: 8px 10px;
+        margin-left: 0;
+    }
+
+    .about-us-tag > a::before {
+        content: "#";
+    }
+
+    .products-block {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: auto;
+    }
+
+    .product {
+        width: 280px;
+        margin-top: 32px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    }
+
+    .faq-block {
+        width: 100% !important; 
+    }
+
+    .faq {
+        width: 100%;
+    }
+
+    .reviews-networks > li {
+        margin-right: 30px;
     }
     
-    .post > p {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 24px;
-        color: #193D4E;
+    .reviews-networks {
+        margin: 22px 0 40px;
     }
 
-    .post > img {
-        border-radius: 6px 6px 0 0;
-    }
-
-    .post > h2, .post > p, .info-review-post {
-        padding: 0 20px;
-    }
-
-    .post > p {
-        height: 144px;
-        text-overflow: clip;        
-        overflow: hidden;
-        margin-bottom: 22px;
-    }
-
-    .post:nth-child(2) > p {
-        height: 72px !important;
-    }
-
-    .post:nth-child(2) {
-        margin-top: 0 !important;
-    }
-
-    .post:nth-child(3n + 2) {
-        margin-top: -72px;
-    } 
-
-    .info-review-post {
-        display: flex;
-    }
-    
-    .time-post, .comment-post {
-        display: flex;
-        align-items: center;
-    }
-
-    .comment-post {
-        margin-left: 30px;
-        margin-top: 8px;
-    }
-
-    .time-post > span, .comment-post > span {
-        display: inline-block;
-        margin-left: 10px;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 21px;
-        color: #9A9A9A;
-    }
-
-    .comment-post > span {
-        margin-bottom: 8px;
-    }
-
-    .pagination > ul {
-        display: flex;
-        justify-content: center;
-        list-style: none;
-    }
-
-    .pagination > ul > li > a {
-        margin: 0 20px;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 29px;
-        color: #3F4472
-    }
 
     .search-post {
         width: 100%;
@@ -357,42 +317,5 @@
         line-height: 22px;
         text-transform: uppercase;        
         color: #53B263;
-    }
-     
-    .chevron {
-        position: relative;
-    }
-    
-    .next, .back {
-        position: absolute;
-        display: inline-block;
-        padding-bottom: 5px;
-        cursor: pointer;
-        border: 2px solid #193D4E;
-        box-sizing: border-box;
-        border-radius: 6px;
-        opacity: 0.3;
-    }
-    
-    .next {
-        right: -35px;;
-    }
-    
-    .back {
-        left: -35px;
-    }
-
-    .next, .back {
-         padding: 5px 8px;
-         padding-top: 7px;
-    }
- 
-    .next > img, .back > img {
-         width: 15px;
-         height: 15px;
-    }
- 
-    .chevron {
-        bottom: 32px;
     }
 }

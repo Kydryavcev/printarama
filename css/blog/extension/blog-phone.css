@@ -75,4 +75,41 @@
         line-height: 29px;
         color: #3F4472
     }
+     
+    .chevron {
+        position: relative;
+    }
+    
+    .next, .back {
+        position: absolute;
+        display: inline-block;
+        padding-bottom: 5px;
+        cursor: pointer;
+        border: 2px solid #193D4E;
+        box-sizing: border-box;
+        border-radius: 6px;
+        opacity: 0.3;
+    }
+    
+    .next {
+        right: -35px;;
+    }
+    
+    .back {
+        left: -35px;
+    }
+
+    .next, .back {
+         padding: 5px 8px;
+         padding-top: 7px;
+    }
+ 
+    .next > img, .back > img {
+         width: 15px;
+         height: 15px;
+    }
+ 
+    .chevron {
+        bottom: 32px;
+    }
 }

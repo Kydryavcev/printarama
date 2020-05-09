@@ -1,4 +1,8 @@
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
+    .chevron-main-slider {
+        display: none;
+    }
+ 
     .slider-main-text {
         position: relative;
         text-align: left;

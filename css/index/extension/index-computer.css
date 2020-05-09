@@ -1,4 +1,35 @@
 @media (min-width: 1220px) {
+    .chevron-main-slider {
+        width: 100%;
+        position: relative;
+        bottom: 200px;
+    }
+
+    .back-main-slider, .next-main-slider {
+        background: #cccccc;
+        opacity: 0.8;
+        border: 1px solid #cccccc;
+        box-sizing: border-box;
+        border-radius: 6px;        
+        position: absolute;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .back-main-slider {
+        left: 13px;
+    }
+    
+    .next-main-slider {
+        right: 13px;
+        transform: rotate(180deg);
+    }
+
+    .back-main-slider > img, .next-main-slider > img {
+        width: 24px;
+        margin: 8px;
+    }
+
     .slider-main-text {
         position: relative;
         text-align: left;

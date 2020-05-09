@@ -45,7 +45,20 @@
     }
 
         /* breadcrumbs */
+    .breadcrumbs-link {
+        margin-left: 18px;
+    }
 
+    .breadcrumbs-link > a{
+        white-space: nowrap;
+        text-overflow: clip;
+        overflow: hidden; /* Обрезаем все, что не помещается в область */
+    }
+
+    .breadcrumbs-link:last-child > a {
+        width: 250px;
+    }
+    
     .breadcrumbs-link:first-child {
         margin-left: 0;
     }

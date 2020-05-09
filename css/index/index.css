@@ -291,3 +291,9 @@
 .sponsors-main > a > img {
     width: 100%;
 }
+ 
+.reviews-stars {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}

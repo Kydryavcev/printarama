@@ -1,0 +1,72 @@
+@media (max-width: 768px) {
+    .main-blog-info > aside {
+        display: none;
+    }
+
+    .about-us-tag {
+        margin-bottom: 46px;
+    }
+
+    .about-us-tag > a {
+        background: #FFFFFF;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;    
+        color: #26516D;
+        box-sizing: border-box;
+        margin: 8px 10px;
+    }
+
+    .about-us-tag > a::before {
+        content: "#";
+    }   
+
+    .products-block, .service-links-block {
+        width: 100%;
+    }
+
+    .product {
+        width: 100%;
+        margin-top: 32px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    } 
+
+    .faq {
+        width: 100%;
+    }
+
+    
+    .reviews-networks {
+        justify-content: space-between;
+        margin: 20px 0 34px;
+    }
+
+    .reviews-networks > li {
+        margin-top: 10px;
+        margin-right: 14px;
+    }
+
+    .add-your-comment {
+        margin-bottom: 81px;
+    }
+
+    .share-platforms > li {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .type-your-info {
+        flex-flow: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .form-add-comment {
+        margin-left: 0;
+    }
+
+    .add-your-comment > .image-logo-user, .network-block > h3, .type-your-info > h3, .type-your-info > input[type="text"], .type-your-info > p, .post-review-info-network {
+        display: none;
+    }
+}
