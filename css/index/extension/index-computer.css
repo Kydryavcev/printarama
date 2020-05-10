@@ -1,8 +1,15 @@
 @media (min-width: 1220px) {
+    .slider-main-block {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        position: relative;
+    }
+
     .chevron-main-slider {
         width: 100%;
-        position: relative;
         bottom: 200px;
+        position: absolute;
     }
 
     .back-main-slider, .next-main-slider {
