@@ -56,7 +56,7 @@
     }
 
     .breadcrumbs-link:last-child > a {
-        width: 250px;
+        max-width: 250px;
     }
     
     .breadcrumbs-link:first-child {

@@ -3,6 +3,11 @@
         display: none;
     }
 
+    .work-headline {            
+    font-size: 20px;
+    line-height: 30px;
+    }
+
     .about-us-tag {
         margin-bottom: 46px;
     }
@@ -68,5 +73,150 @@
 
     .add-your-comment > .image-logo-user, .network-block > h3, .type-your-info > h3, .type-your-info > input[type="text"], .type-your-info > p, .post-review-info-network {
         display: none;
+    }
+    
+    .headline-comment {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .headline-comment-block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .flag-minus > button {
+       display: none;
+    }
+
+    .comments-block {
+        margin-top: 50px;
+    }
+
+    .image-logo-user > img {
+        padding: 0;
+    }
+
+    .headline-comment > h3 {        
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .headline-comment > div {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .comment-info {      
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .rating-block {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        position: absolute;
+        left: -72px;
+        bottom: 0;
+    }
+
+    .rating-block > img {
+        display: none;
+    }
+
+    .rating-block{
+        display: none;
+    }
+
+    .rating-block > button > img {
+        width: 14px;
+    }
+
+    .rating-block-phone {
+        margin-top: 15px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;    
+    }
+
+    .rating-block-phone > button {
+        display: flex;
+        align-items: center;
+        background: #FFFFFF;
+        border: none;
+        cursor: pointer;
+    }
+
+    .top-phone {
+        order: 0;        
+    }
+
+    .rating {
+        order: 1;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #26516D;
+        margin-top: 5px;
+        margin-bottom: 4px;
+    }
+
+    .bottom-phone {
+        order: 2;
+    }
+
+    .review-comment {
+        position: relative;
+    }
+
+    .share-block {
+        display: flex;
+        list-style: none;
+        margin-left: auto;
+    }
+
+    .share-block > li {
+        margin-right: 5px;
+    }
+
+    .image-logo-user {
+        padding: 0;
+    }
+
+    .comment-info-block {
+        min-width: 180px;
+    }
+    
+    .review-comment {
+        flex-flow: row wrap;
+    }
+
+    .share-block-main {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .answer, .share {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        color: #909090;
+    }
+
+    .info-review-post {
+        flex-flow: row wrap;
+    }
+
+    .type-your-info > input[type="button"] {
+        padding: 9px 18px;
+    }
+
+    .post-review-info-block > ul > li {
+        font-size: 10px;
+        line-height: 20px;
     }
 }
