@@ -68,13 +68,51 @@
         margin-top: 40px;
     }
 
-    .products-block > .product:nth-child(1), .products-block > .product:nth-child(2),
-    .service-links-block > .product:nth-child(1), .service-links-block > .product:nth-child(2) {
-        display: block  !important;
-    }
-    
     .products-block > .product, .service-links-block > .product {
         display: none;
+    }
+
+    .no-slider-active {
+        display: none;
+        animation: anim-back 1s;
+    }
+    
+    .slider-active-tablets {
+        display: block !important;
+    }
+    
+    .slider-active-back {
+        display: block !important;
+        animation: anim-back 1s;
+    }
+    
+    .slider-active-next {
+        display: block !important;
+        animation: anim-next 1s;
+    }
+    
+    @keyframes anim-back {
+        from {
+            margin-right: 10px;
+            opacity: 0;
+        }
+    
+        to {
+            margin-right: 0;
+            opacity: 1;
+        }
+    }
+    
+    @keyframes anim-next {
+        from {
+            margin-left: 10px;
+            opacity: 0;
+        }
+    
+        to {
+            margin-left: 0;
+            opacity: 1;
+        }
     }
 
     .reviews-block {
@@ -88,10 +126,6 @@
     .reviews > .review {
         width: 312px;
         display: none;
-    }
-
-    .reviews > .review:nth-child(1) {
-        display: block !important;
     }
     
     .chevron-product {
