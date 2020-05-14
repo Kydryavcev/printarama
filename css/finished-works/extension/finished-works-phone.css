@@ -37,7 +37,7 @@
         margin-left: 30px;
     }
 
-    .info-work > h2 {
+    .info-work > h2, .info-work > a > h2 {
         font-size: 20px;
         line-height: 30px;
     }

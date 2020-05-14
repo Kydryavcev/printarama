@@ -18,7 +18,7 @@
     flex-flow: column;
 }
 
-.info-work > h2 {
+.info-work > h2, .info-work > a > h2 {
     font-style: normal;
     font-weight: 600;
     color: #26516D;

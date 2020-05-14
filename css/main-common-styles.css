@@ -2,13 +2,21 @@ main{
     text-align: center;
 }
 
-.main-headline {   
-    display: block;     
+.main-headline {  
+    display: table;      
     font-style: normal;
     font-weight: bold;
     text-transform: uppercase;
     color: #26516D;    
     text-align: center;
+    margin: 0 auto;
+}
+.main-headline::after { 
+    height: 4px; 
+    content: ""; 
+    background: linear-gradient(270deg, #53B263 1.49%, #CED275 97.01%);
+    border-radius: 0.3px;
+    display: block;
 }
 
 @media (min-width: 1220px){
